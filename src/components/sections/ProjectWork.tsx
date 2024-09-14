@@ -11,7 +11,7 @@ import { TProjectwork } from "../../types";
 
 
 const ProjectCard: React.FC<{ index: number } & TProjectwork> = ({
-  index,
+  
   title,
   companyName,
   date,
