@@ -2,6 +2,7 @@ type TSection = {
   p: string;
   h2: string;
   content?: string;
+  content2?: string;
 };
 
 type TConfig = {
@@ -33,6 +34,8 @@ type TConfig = {
   sections: {
     about: Required<TSection>;
     experience: TSection;
+    projectWork: TSection;
+    Project: TSection;
     feedbacks: TSection;
     works: Required<TSection>;
   };
@@ -40,12 +43,12 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Priya Kumari — 3D Portfolio",
+    fullName: "Priya Kumari",
+    email: "dbgpriyakumari@mail.com",
   },
   hero: {
-    name: "John Doe",
+    name: "Priya Kumari",
     p: ["I develop 3D visuals, user", "interfaces and web applications"],
   },
   contact: {
@@ -67,15 +70,35 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
+      content: `I’m a skilled software developer with expertise in TypeScript, JavaScript, and frameworks like React, Node.js, and Three.js. I create 3D models in Blender and integrate them into websites, using tools like GSAP and Tailwind CSS for seamless animations and responsive designs.`,
+
+      content2:`I'm a quick learner and collaborate closely with clients to
       create efficient, scalable, and user-friendly solutions that solve
       real-world problems. Let's work together to bring your ideas to life!`,
     },
     experience: {
       p: "What I have done so far",
       h2: "Work Experience.",
+    },
+    projectWork: {
+      p: "What I have done so far",
+      h2: "My Projects",
+      content: `Following projects showcases my skills and experience through
+    real-world examples of my work. Each project is briefly described with
+    links to code repositories and live demos in it.`,
+     content2:`It reflects my
+    ability to solve complex problems, work with different technologies,
+    and manage projects effectively.`
+    },
+    Project: {
+      p: "What I have done so far",
+      h2: "My  Projects.",
+      content: `Following projects showcases my skills and experience through
+    real-world examples of my work. Each project is briefly described with
+    links to code repositories and live demos in it.`,
+     content2:`It reflects my
+    ability to solve complex problems, work with different technologies,
+    and manage projects effectively.`,
     },
     feedbacks: {
       p: "What others say",
@@ -86,7 +109,8 @@ export const config: TConfig = {
       h2: "Projects.",
       content: `Following projects showcases my skills and experience through
     real-world examples of my work. Each project is briefly described with
-    links to code repositories and live demos in it. It reflects my
+    links to code repositories and live demos in it.`,
+     content2:`It reflects my
     ability to solve complex problems, work with different technologies,
     and manage projects effectively.`,
     },

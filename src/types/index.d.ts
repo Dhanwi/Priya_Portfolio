@@ -11,6 +11,21 @@ export type TExperience = {
   points: string[];
 } & Required<Omit<TCommonProps, "name">>;
 
+export type TProjectwork = {
+  // title: string;
+  companyName: string;
+  iconBg: string;
+  date: string;
+  points: string[];
+  
+  tags: {
+    name: string;
+    color: string;
+  }[];
+  image: string;
+  sourceCodeLink: string;
+} & Required<Omit<TCommonProps, "name">>;
+
 export type TTestimonial = {
   testimonial: string;
   designation: string;
@@ -18,7 +33,7 @@ export type TTestimonial = {
   image: string;
 } & Required<Pick<TCommonProps, "name">>;
 
-export type TProject = {
+export type TWork = {
   description: string;
   tags: {
     name: string;
@@ -26,6 +41,23 @@ export type TProject = {
   }[];
   image: string;
   sourceCodeLink: string;
+} & Required<Pick<TCommonProps, "name">>;
+
+
+export type TProject = {
+  // index: number;
+  description: string;
+  tags: {
+    name: string;
+    color: string;
+  }[];
+  image: string;
+  sourceCodeLink: string;
+  companyName: string;
+  iconBg: string;
+  date: string;
+  icon: string;
+  points: string[];
 } & Required<Pick<TCommonProps, "name">>;
 
 export type TTechnology = Required<Omit<TCommonProps, "title">>;

@@ -3,13 +3,13 @@ import { motion } from "framer-motion";
 
 import { github } from "../../assets";
 import { SectionWrapper } from "../../hoc";
-import { projects } from "../../constants";
+import { works } from "../../constants";
 import { fadeIn } from "../../utils/motion";
 import { config } from "../../constants/config";
 import { Header } from "../atoms/Header";
-import { TProject } from "../../types";
+import {  TWork } from "../../types";
 
-const ProjectCard: React.FC<{ index: number } & TProject> = ({
+const ProjectCard: React.FC<{ index: number } & TWork> = ({
   index,
   name,
   description,
@@ -78,7 +78,7 @@ const Works = () => {
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
-        {projects.map((project, index) => (
+        {works.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>

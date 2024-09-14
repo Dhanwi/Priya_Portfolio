@@ -17,6 +17,7 @@ import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
+import gsap from "./tech/GSAP.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
@@ -26,8 +27,13 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
 import jobit from "./jobit.png";
+import Templeverse from "./Templeverse.png"
+import Metaverse from "./Metaverse.png"
+import apple from "./apple.png"
+import Drone from "./Drone.png"
+import shirt from "./shirt.png"
+import tribe from "./tribe.png"
 import tripguide from "./tripguide.png";
 
 export {
@@ -49,6 +55,7 @@ export {
   nodejs,
   reactjs,
   redux,
+  gsap,
   tailwind,
   typescript,
   threejs,
@@ -56,7 +63,12 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
+ Templeverse,
+ shirt,
+ Metaverse,
+ tribe,
+ apple,
+ Drone,
   jobit,
   tripguide,
 };

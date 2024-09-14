@@ -13,6 +13,9 @@ import {
 } from "./components";
 import { useEffect } from "react";
 import { config } from "./constants/config";
+import Project from "./components/sections/Project";
+import ProjectWork from "./components/sections/ProjectWork";
+import Project_heading from "./components/sections/Project_heading";
 
 const App = () => {
   useEffect(() => {
@@ -29,10 +32,11 @@ const App = () => {
           <Hero />
         </div>
         <About />
-        <Experience />
+        <Project_heading />
+        <ProjectWork />
         <Tech />
-        <Works />
-        <Feedbacks />
+        {/* <Works /> */}
+        {/* <Feedbacks /> */}
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
