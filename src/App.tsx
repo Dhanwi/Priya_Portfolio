@@ -3,17 +3,15 @@ import { BrowserRouter } from "react-router-dom";
 import {
   About,
   Contact,
-  Experience,
-  Feedbacks,
+
   Hero,
   Navbar,
   Tech,
-  Works,
   StarsCanvas,
 } from "./components";
 import { useEffect } from "react";
 import { config } from "./constants/config";
-import Project from "./components/sections/Project";
+
 import ProjectWork from "./components/sections/ProjectWork";
 import Project_heading from "./components/sections/Project_heading";
 
