@@ -1,5 +1,5 @@
 # 3D Portfolio
-!Image(https://github.com/user-attachments/assets/19eae8cf-5624-4ff5-a03a-2d8229827b74)
+![Image](https://github.com/user-attachments/assets/19eae8cf-5624-4ff5-a03a-2d8229827b74)
 
 <!-- GitHub badges -->
 
