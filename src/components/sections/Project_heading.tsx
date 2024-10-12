@@ -8,7 +8,7 @@ import { fadeIn } from "../../utils/motion";
 const Project_heading = () => {
   return (
     <>
-    <div className='flex flex-col items-start ml-44 text-left'>
+    <div className='flex flex-col items-start sm:ml-44 ml-6 text-left'>
     <Header useMotion={true} {...config.sections.projectWork} />
       <div className="flex flex-col gap-3 w-full items-start text-left">
         <motion.p
