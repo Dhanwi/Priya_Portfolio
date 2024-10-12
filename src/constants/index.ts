@@ -63,7 +63,7 @@ const services: TService[] = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Js Developer",
     icon: mobile,
   },
   {
